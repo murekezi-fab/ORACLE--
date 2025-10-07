@@ -1,5 +1,7 @@
 Student Name: MUREKEZI SANGWA Fabrice
+
 Student ID: 28395
+
 Course: PL/SQL and Database Administration
 ________________________________________
 1. Introduction
@@ -30,6 +32,9 @@ Explanation:
 Result:
 The PDB was created successfully and appeared under SHOW PDBS as READ WRITE.
  
+<img width="975" height="205" alt="image" src="https://github.com/user-attachments/assets/bf288072-22dc-4aa8-b991-27bb7fbc8708" />
+
+<img width="940" height="338" alt="image" src="https://github.com/user-attachments/assets/26ce6655-a4cb-4df9-88e2-ac33dc70387a" />
 
  
 
@@ -41,6 +46,7 @@ Create another pluggable database named fa_to_delete_pdb_28395 and then delete i
 ALTER PLUGGABLE DATABASE fa_to_delete_pdb_28395 OPEN READ WRITE;
 SHOW PDBS;
 This screenshot showing fa_to_delete_pdb_28395 in READ WRITE mode.  
+<img width="975" height="184" alt="image" src="https://github.com/user-attachments/assets/13a37898-9677-4da1-8942-4d6c63f043c5" />
 ________________________________________
 Deletion Procedure
 SQL Script (Deletion):
@@ -53,7 +59,9 @@ Explanation:
 •	SHOW PDBS confirms removal from the container database.
 Output after executing DROP command showing the PDB is no longer listed  
 
- 
+<img width="940" height="338" alt="image" src="https://github.com/user-attachments/assets/1af0713d-7842-4114-a833-a976c823568b" />
+
+<img width="854" height="257" alt="image" src="https://github.com/user-attachments/assets/ba20ac98-aadb-485b-a1b9-17d9562a2973" />
 ________________________________________
 5. Task 3 – Managing PDBs via Oracle Enterprise Manager (OEM)
 Objective:
@@ -67,7 +75,9 @@ Container Database → Pluggable Databases
 	Verified: FA_PDB28395 appears as OPEN (READ WRITE).
 o	fa_to_delete_pdb_28395 no longer exists after deletion.
 o	OEM interface showing the active PDBs list.
-	 
+
+<img width="940" height="467" alt="image" src="https://github.com/user-attachments/assets/eb40e73c-8ad7-4ab4-a359-488c2c4af352" />
+   
 
 ________________________________________
 6. Error Handling and Troubleshooting
